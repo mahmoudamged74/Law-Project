@@ -1,0 +1,150 @@
+.legalSolutionsSection {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #5c2d2d;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.sectionTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background-color: #5c2d2d;
+}
+
+.swiper {
+  padding: 3rem 0 5rem 0;
+  width: 100%;
+}
+
+.swiperSlide {
+  width: 350px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: linear-gradient(180deg, #cdab6e66 0%, #cdab6e 100%);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  cursor: grab;
+}
+
+/* Active card - less transparent, more visible */
+.swiperSlide.swiper-slide-active .card {
+  background: linear-gradient(180deg, #cdab6e 0%, #cdab6e 100%);
+  opacity: 1;
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.iconContainer {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.card:hover .iconContainer {
+  transform: rotate(360deg) scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #cdab6e;
+  transition: all 0.4s ease;
+}
+
+.card:hover .icon {
+  color: #5c2d2d;
+  transform: scale(1.1);
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #5c2d2d;
+  margin-bottom: 1.5rem;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .legalSolutionsSection {
+    padding: 3rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .swiperSlide {
+    width: 280px;
+  }
+
+  .card {
+    min-height: 350px;
+    padding: 2rem 1.5rem;
+  }
+
+  .iconContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardDescription {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,185 @@
+.partnershipsSection {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.titleContainer::before,
+.titleContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #5c2d2d;
+}
+
+.titleContainer::before {
+  left: 0;
+  width: 30%;
+}
+
+.titleContainer::after {
+  right: 0;
+  width: 30%;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5c2d2d;
+  margin-bottom: 0.5rem;
+}
+
+.aboutTitle {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cdab6e;
+  margin: 0;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper {
+  padding: 2rem 0 4rem 0;
+  width: 100%;
+}
+
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.partnershipCard {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.partnershipCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.partnershipImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 150px;
+  transition: all 0.4s ease;
+  filter: grayscale(30%);
+}
+
+.partnershipCard:hover .partnershipImage {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.partnershipName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5c2d2d;
+  text-align: center;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.partnershipCard:hover .partnershipName {
+  color: #cdab6e;
+}
+
+/* Swiper Pagination Styles */
+.swiper :global(.swiper-pagination-bullet) {
+  background-color: #cdab6e;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+  transition: all 0.3s ease;
+}
+
+.swiper :global(.swiper-pagination-bullet-active) {
+  background-color: #5c2d2d;
+  opacity: 1;
+  width: 30px;
+  border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .partnershipsSection {
+    padding: 3rem 0;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .aboutTitle {
+    font-size: 1rem;
+  }
+
+  .partnershipCard {
+    padding: 1.5rem;
+    min-height: 200px;
+  }
+
+  .partnershipImage {
+    max-height: 120px;
+  }
+
+  .partnershipName {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutTitle {
+    font-size: 1rem;
+  }
+
+  .partnershipCard {
+    padding: 1.25rem;
+    min-height: 180px;
+  }
+
+  .partnershipImage {
+    max-height: 100px;
+  }
+
+  .partnershipName {
+    font-size: 0.95rem;
+  }
+}

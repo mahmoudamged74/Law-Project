@@ -1,0 +1,141 @@
+.customersSection {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.titleContainer::before,
+.titleContainer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #5c2d2d;
+}
+
+.titleContainer::before {
+  left: 0;
+  width: 30%;
+}
+
+.titleContainer::after {
+  right: 0;
+  width: 30%;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #5c2d2d;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #cdab6e;
+  margin: 0;
+}
+
+.swiper {
+  padding: 2rem 0 4rem 0;
+  width: 100%;
+}
+
+.swiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.clientCard {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.clientCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.clientImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 150px;
+  transition: all 0.4s ease;
+  filter: grayscale(30%);
+}
+
+.clientCard:hover .clientImage {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+/* Swiper Pagination Styles */
+.swiper :global(.swiper-pagination-bullet) {
+  background-color: #cdab6e;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+  transition: all 0.3s ease;
+}
+
+.swiper :global(.swiper-pagination-bullet-active) {
+  background-color: #5c2d2d;
+  opacity: 1;
+  width: 30px;
+  border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .customersSection {
+    padding: 3rem 0;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .clientCard {
+    padding: 1.5rem;
+    min-height: 150px;
+  }
+
+  .clientImage {
+    max-height: 120px;
+  }
+}

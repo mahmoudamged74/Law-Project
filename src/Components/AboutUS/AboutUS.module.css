@@ -1,0 +1,240 @@
+.aboutSection {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.contentWrapper {
+  padding: 2rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5c2d2d;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.firmName {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #2c2c2c;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #5c2d2d 0%, #cdab6e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #2c2c2c;
+  margin-bottom: 2.5rem;
+  text-align: right;
+}
+
+[dir="ltr"] .description {
+  text-align: left;
+}
+
+.featuresList {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 0.75rem 0;
+  transition: all 0.3s ease;
+}
+
+.featureItem:hover {
+  transform: translateX(5px);
+}
+
+[dir="rtl"] .featureItem:hover {
+  transform: translateX(-5px);
+}
+
+.checkIcon {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(180deg, #cdab6e66 0%, #cdab6e 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5c2d2d;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(205, 171, 110, 0.3);
+  transition: all 0.3s ease;
+}
+
+.featureItem:hover .checkIcon {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(205, 171, 110, 0.5);
+}
+
+.featureText {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  flex: 1;
+}
+
+.contactBtn {
+  position: relative;
+  background-color: #5c2d2d;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.contactBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.6s ease;
+  z-index: 1;
+}
+
+.contactBtn:hover::before {
+  left: 100%;
+}
+
+.contactBtn:hover {
+  background-color: #6d3636;
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(92, 45, 45, 0.4);
+}
+
+.contactBtn span:last-child {
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.contactBtn:hover span:last-child {
+  transform: translateX(5px);
+}
+
+.arrow {
+  font-size: 1.3rem;
+  transition: transform 0.3s ease;
+}
+
+/* Image Section */
+.imageWrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  height: 100%;
+  min-height: 500px;
+}
+
+.aboutImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.imageWrapper:hover .aboutImage {
+  transform: scale(1.05);
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .aboutSection {
+    padding: 3rem 0;
+  }
+
+  .firmName {
+    font-size: 2.5rem;
+  }
+
+  .contentWrapper {
+    padding: 1.5rem;
+  }
+
+  .imageWrapper {
+    min-height: 400px;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    padding: 2rem 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+  }
+
+  .firmName {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .featureText {
+    font-size: 1rem;
+  }
+
+  .contactBtn {
+    padding: 0.875rem 2rem;
+    font-size: 1rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .imageWrapper {
+    min-height: 300px;
+  }
+}

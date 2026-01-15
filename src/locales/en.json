@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact Us",
+    "bookAppointment": "Book Appointment"
+  },
+  "hero": {
+    "name": "Faisal bin Hamoud Al-Hathal",
+    "partner": "Your",
+    "legal": "Legal Partner",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "firmName": "Lawyer's Office Faisal Bin Hamoud Al-Hathal",
+    "firmNameEn": "FAISAL BIN HAMOUD AL-HATHAL Law - Legal Consultations",
+    "firmTagline": "Advocacy - Legal Consultations",
+    "mission": "In our office, we are committed to achieving justice and protecting the rights of our clients, based on a deep understanding of the legal system and extensive experience in various legal specializations.",
+    "quickLinks": "Quick Links",
+    "contactChannels": "Contact Us",
+    "mobile": "Mobile:",
+    "phone": "+966591361212",
+    "addresses": "Our Addresses:",
+    "address1": "Riyadh",
+    "address2": "Coming Soon: Najran - Hail",
+    "email": "Email:",
+    "emailAddress": "office@lawyerfaisal.com",
+    "rights": "Faisal Hamoud Al-Hathal Office All Rights Reserved"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Information about us",
+    "aboutOffice": "About the Office",
+    "firmName": "Faisal bin Hamoud Al-Hathal Office",
+    "description1": "Faisal bin Hamoud Al-Hathal Law Firm is considered one of the most prominent companies in the field of legal services, consultations, and intellectual property protection. Since its establishment in 2015, it has succeeded in building a strong reputation in the Kingdom of Saudi Arabia, Gulf countries, and the Middle East.",
+    "feature1": "Experts in all cases",
+    "feature2": "Integrated legal solutions",
+    "feature3": "Best results and solutions",
+    "contactUs": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "contactInfo": "Contact Information",
+    "phone": "+966591361212",
+    "emailAddress": "office@lawyerfaisal.com",
+    "addresses": "Our Addresses",
+    "address1": "Riyadh",
+    "address2": "Al Khobar",
+    "address3": "Hafar Al-Batin",
+    "address4": "Al Kharj",
+    "address1Full": "Riyadh, Saudi Arabia",
+    "address2Full": "Al Khobar, Saudi Arabia",
+    "address3Full": "Hafar Al-Batin, Saudi Arabia",
+    "address4Full": "Al Kharj, Saudi Arabia",
+    "comingSoon": "Coming Soon:",
+    "address5": "Najran",
+    "address6": "Hail",
+    "sendMessage": "Send Message"
+  },
+  "services": {
+    "title": "Our Services",
+    "civil": "Specialists in all civil cases",
+    "personal": "Specialists in all personal status cases",
+    "commercial": "Specialists in all commercial and corporate cases",
+    "criminal": "Specialists in all criminal cases"
+  },
+  "agreements": {
+    "title": "Local and International Agreements",
+    "description1": "Faisal bin Hamoud Al-Hathal Law Firm is considered one of the most prominent companies in the field of legal services, consultations, and intellectual property protection. Since its establishment in 2015, it has succeeded in building a strong reputation in the Kingdom of Saudi Arabia, Gulf countries, and the Middle East.",
+    "description2": "We offer our corporate clients strategic solutions that protect their rights and strengthen their legal position. Our firm is distinguished as a trusted legal consultant in the region, supported by a team of qualified lawyers with extensive experience in litigation and legal consultations.",
+    "description3": "Professor Faisal has extensive experience in litigation across a variety of sectors, including commercial, labor, banking, and intellectual property cases. He represents Saudi and foreign clients before Saudi courts in both public and private sectors. His practice includes civil, criminal, labor, and commercial cases, in addition to providing legal consultations in cross-border partnership and investment projects.",
+    "contactUs": "Contact Us"
+  },
+  "legalSolutions": {
+    "title": "Specialized Legal Solutions for Complex Criminal Cases",
+    "description": "At Faisal Hamoud Al-Hathal Law Firm, we are proud to be your trusted legal partner, through a specialized and dedicated legal team providing legal support and consultations at the highest levels of professionalism and efficiency.",
+    "criminal": "Criminal Law",
+    "family": "Family Law",
+    "realEstate": "Real Estate Law",
+    "intellectual": "Intellectual Property Law",
+    "commercial": "Commercial Law",
+    "educational": "Educational Law"
+  },
+  "informationUS": {
+    "title": "About Us",
+    "startYear": "2015",
+    "startYearText": "Our office start",
+    "experience": "20",
+    "experienceText": "Years of legal experience",
+    "partnerships": "4",
+    "partnershipsText": "International partnership offices",
+    "partnershipsSubtext": "Partners with four international law offices.",
+    "offices": "5",
+    "officesText": "Offices",
+    "officesSubtext": "To serve you better around the Kingdom of Saudi Arabia."
+  },
+  "ourCustomers": {
+    "title": "Our Clients",
+    "subtitle": "We are proud of our partnership with the most prominent entities"
+  },
+  "legalPartnerships": {
+    "title": "International Legal Partnerships",
+    "subtitle": "At Faisal Hamoud Al-Hathal Law Firm, we have extensive experience in preparing and drafting international legal partnership contracts, which are essential tools for organizing relationships between legal entities in different countries. We work to ensure that these contracts meet the highest protection standards.",
+    "partnership1": "International Legal Partnership 1",
+    "partnership2": "International Legal Partnership 2",
+    "partnership3": "International Legal Partnership 3",
+    "partnership4": "International Legal Partnership 4"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "We are proud of our distinguished team of lawyers and legal experts",
+    "member1Name": "Faisal bin Hamoud Al-Hathal",
+    "member1Position": "Principal Lawyer",
+    "member2Name": "Team Member 2",
+    "member2Position": "Lawyer",
+    "member3Name": "Team Member 3",
+    "member3Position": "Lawyer",
+    "member4Name": "Team Member 4",
+    "member4Position": "Lawyer"
+  },
+  "frequentlyQuestions": {
+    "bookTitle": "Book a consultation appointment",
+    "phone": "+966591361212",
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What types of legal services do we offer?",
+        "answer": "We offer a wide range of legal services including civil, criminal, commercial, labor, personal status cases, intellectual property protection, real estate law, and educational law."
+      },
+      {
+        "id": 2,
+        "question": "How do I prepare for a legal consultation?",
+        "answer": "We recommend gathering all documents related to your case, writing down questions you want to ask, and bringing any relevant information. This will help us provide a more accurate and effective consultation."
+      },
+      {
+        "id": 3,
+        "question": "Are your consultations confidential?",
+        "answer": "Yes, we are fully committed to the confidentiality of all information you share with us. All legal consultations are protected under attorney-client privilege rules."
+      },
+      {
+        "id": 4,
+        "question": "How can I book a legal consultation?",
+        "answer": "You can book a legal consultation by calling us at the number mentioned above, or by clicking the 'Book Appointment' button on the website. We will schedule a suitable appointment for you as soon as possible."
+      },
+      {
+        "id": 5,
+        "question": "What types of legal services do you provide?",
+        "answer": "We provide comprehensive legal services including legal consultations, client representation in courts, contract and agreement drafting, dispute resolution, intellectual property protection, and corporate legal services."
+      }
+    ]
+  }
+}
