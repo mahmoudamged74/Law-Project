@@ -56,6 +56,7 @@ function Herosection() {
         <div className="row align-items-center min-vh-100">
           <div className={`col-lg-8 ${isRTL ? "text-end" : "text-start"}`}>
             <p className={styles.name}>{t("hero.name")}</p>
+            <p className={styles.subtitle}>{t("hero.subtitle")}</p>
             <h1 className={styles.mainTitle}>
               <span className={styles.partnerText}>{t("hero.partner")} </span>
               <span className={styles.legalText}>
